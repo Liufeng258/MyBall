@@ -1,0 +1,53 @@
+plugins {
+	id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+}
+
+android {
+    compileSdk 34
+	buildToolsVersion "33.0.2"
+
+    defaultConfig {
+        applicationId "com.liufeng.ballfight"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+	buildFeatures {
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    aaptOptions {
+        cruncherEnabled = false  // 禁用PNG检查
+        additionalParameters "--allow-reserved-package-id", "--package-id", "0x7f"
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    
+    // 本地化支持
+    implementation 'com.zeugmasolutions.localehelper:locale-helper:1.5.1'
+    
+    // 矢量图形支持
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+
+	// NOTE: CodeAssist does NOT support adding dependencies here,
+	// use the library manager instead
+}
