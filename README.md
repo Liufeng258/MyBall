@@ -1,2 +1,2 @@
 # MyBall
-Android game app for testing and learning
+Android game app for testing and learning.
