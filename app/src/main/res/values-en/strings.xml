@@ -1,1 +1,7 @@
-
+<resources>
+    <string name="app_name">MyBall</string>
+    <string name="game_title">MyBall - Ball Battle</string>
+    <string name="default_signature">This player is too cool to leave anything.</string>
+    <string name="btn_new_game">New Game</string>
+    <string name="btn_continue">Continue</string>
+</resources>
