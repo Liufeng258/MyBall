@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyBall</string>
+    <string name="game_over">游戏结束！得分：%d</string>
+    <string name="texture_load_failed">纹理加载失败</string>
+    <string name="title_hungry_cat">小馋猫</string>
+    <string name="default_signature">该玩家很高冷，什么都没有留下呢。</string>
+    <string name="uid_prefix">UID:</string>
+    
+    <!-- 多语言 -->
+    <string name="language_en">English</string>
+    <string name="language_zh">简体中文</string>
+    <string name="language_es">Español</string>
+</resources>

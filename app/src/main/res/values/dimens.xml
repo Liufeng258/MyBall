@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 游戏界面尺寸定义 -->
+    <dimen name="pause_btn_size">32dp</dimen>
+    <dimen name="pause_btn_margin">16dp</dimen>
+    
+    <!-- 其他尺寸 -->
+    <dimen name="text_size_large">24sp</dimen>
+    <dimen name="button_padding">12dp</dimen>
+</resources>
