@@ -1,1 +1,5 @@
-
+<resources>
+    <string name="app_name">球球作战</string>
+    <string name="default_signature">该玩家很高冷，什么都没有留下呢。</string>
+    <string name="uid_format">ID：%s</string>
+</resources>
